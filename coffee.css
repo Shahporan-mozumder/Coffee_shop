@@ -1,0 +1,166 @@
+body{
+        background-color: #FFFBF2;
+}
+/* laptop device */
+@media only screen and (min-width: 768px) {
+        /* For desktop: */
+        #nav1{
+                position: absolute;
+                z-index: 1;
+                width: 100%;
+                
+        }
+        #kop{
+                font-size: 60px;
+              }
+        #caro{
+                height: 750px;
+        width: fit-content;
+        }
+        #caro-caps{
+              
+                height: 530px;
+        }
+        #caro-caps h1{
+                font-weight: bold;
+                color: rgb(233, 169, 30);
+        }  
+        #caro-caps p{
+                font-size: 100px;
+                font-weight: bold;
+        }
+        #carobtn{
+                height: 50%;
+                margin-top: 200px;
+        }
+        #emptdiv{
+                margin-left:50%;
+        }
+        #cmnh1{
+                font-size: 55px;
+        }
+        #serviceimg{
+                height: 235px;
+                width: 235px;
+        }
+#organicseconddiv{
+        height: 350px;
+}     
+#coffeepricename{
+      width: 75%;
+}
+#inputcoffee{
+        width: 25%;
+        margin-left:38%;
+}
+#inputmail{
+        height: 60px;
+}
+#inputsdiv h1{
+        font-size: 70px;
+}
+
+      }
+    
+/* mobile device */
+
+@media only screen and (max-width: 600px) {
+#nav1{
+        background-color: #31190D !important;
+}
+
+
+#kop{
+        font-size: 40px;
+      }
+#emptdiv{
+        margin-left: 50%;
+}
+#cmnh1{
+        font-size: 40px;
+}
+#organicseconddiv{
+        height: 520px;
+}
+
+#inputcoffee{
+        width: 75%;
+        margin-left:15%;
+}
+#btninput{
+       height: 40px;
+}
+#inputmail{
+        height: 40px;
+        width: 140px;
+}
+}
+
+/* sob device */
+#caro{
+        opacity:0.9;
+        
+}
+#nav-ul li a:hover{
+        color: coral !important;
+}
+#emptdiv{
+        /* margin-left: 750px; */
+        background-color: #E19F5B;
+        height: 100px;
+        width: 3px;
+        margin-top: 50px;
+}
+
+#cmnh4{
+        text-align: center;
+        margin-top: 5px;
+        color: #E19F5B;
+}
+#cmnh1{
+        text-align: center;
+        margin-top: 5px; 
+        color: #33211D;  
+        font-weight: bold;  
+}
+#menuimg{
+        height:130px;
+        width: 130px; }
+       
+#dollar{
+        background-color: #DA9F5B;
+        margin-top: 13px !important;
+        margin-left:-35px !important;
+        z-index: 1;
+}
+#curves{
+    background-color: #FEF1D2; 
+    background-repeat: repeat-x;
+   height: 20px;
+}
+
+#inputmail:hover{
+       background-color: antiquewhite;
+      
+}
+#btninput{
+        background-color: #DA9F5B;
+}
+#btninput:hover{
+        background-color:coral;
+        
+}
+#inputsdiv{
+        margin-top: -50px;
+        height: 450px;
+        background-image: url("./img/pexels-lukas-1419939.jpg");
+        background-size: cover;
+       
+        
+        
+       
+  
+}
+
+
+
